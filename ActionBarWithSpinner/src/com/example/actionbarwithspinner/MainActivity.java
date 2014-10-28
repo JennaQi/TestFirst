@@ -42,6 +42,7 @@ public class MainActivity extends Activity {
 		spinnerArray.add("three");
 		spinnerArray.add("four");
 		spinnerArray.add("five");
+		System.out.println("add");
 	
 		if (contentView == null) {
 			contentView = getLayoutInflater().inflate(R.layout.title_view, null, false);
